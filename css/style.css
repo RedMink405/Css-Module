@@ -1,63 +1,76 @@
     *{
         box-sizing: border-box;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-family: cursive;
     }
-    
+
+    /*base code*/
     section{
         position: relative;
         background-color: #6495ed;
         border: 1px solid black;
-        padding: 30px 15px 0 20px;
-        margin: 0 7% 5% 7%;
+        padding: 50px 40px 0;
+        margin: 0 20px 30px;
     }
 
-    h1{margin: 3% 0 4%}
+    h1{margin: 50px 0 50px}
     h1,h2{text-align: center}
 
     h2{
-        border: 1px solid black;
-        position: absolute;
-        margin: 0;
-        top: 0;
-        right: 0;
-        padding: 3px;
-        width: 30%;
+    border: 1px solid black;
+    position: absolute;
+    margin: 0;
+    top: 0;
+    right: 0;
+    padding: 3px;
+    width: 40%;
     }
 
     #first > h2 {background-color: crimson}
     #second > h2 {background-color: greenyellow}
     #third > h2 {background-color: hotpink}
-
+    
+    /*large devices*/
     @media (min-width:992px){
         
-        section{
-            left: 24px;
-            margin: 1%;/*arriba, derecha, abajo, izquierda*/
-            float: left;
-            width: 30%
-        }
-        
-        p {clear:left}
-        h2 {width: 40%}
+    section{
+        left: 24px;
+        margin: 1%;
+        float: left;
+        width: 30%;
     }
-    
+
+    h2 {width: 40%}
+
+    }
+
+    /*medium devices*/
     @media (min-width:768px) and (max-width:991px){
     
-        #first, #second{
-            margin: 0 2% 3% 2%;
-            width: 46%;
-            float: left;
-        }
-    
-        #third{
-            clear: left;
-            margin: 2%; 
-        }
-
-        h1,h2{text-align: center}
-        h2{width: 40%}
-        #third h2{width: 20%}
+    #first, #second{
+        margin: 0 2% 3% 2%;
+        width: 46%;
+        float: left;
     }
 
+    #third{
+        clear: left;
+        margin: 2%; 
+    }
+
+    h2{width: 40%}
+    #third > h2 {width: 20%}
+
+    }
+
+
+
+
+
+
    
+
     
+    
+
+ 
+
