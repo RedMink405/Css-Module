@@ -8,7 +8,7 @@
         position: relative;
         background-color: #6495ed;
         border: 1px solid black;
-        padding: 40px 40px 0;
+        padding: 35px 20px 0;
         margin: 0 20px 30px;
     }
 
@@ -39,8 +39,6 @@
         width: 30%;
     }
 
-    h2 {width: 40%}
-
     }
 
     /*medium devices*/
@@ -57,7 +55,6 @@
         margin: 2%; 
     }
 
-    h2{width: 40%}
     #third > h2 {width: 20%}
 
     }
