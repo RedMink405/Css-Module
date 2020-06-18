@@ -6,7 +6,7 @@
     /*base code*/
     section{
         position: relative;
-        background-color: #6495ed;
+        background-color: powderblue;
         border: 1px solid black;
         padding: 35px 20px 0;
         margin: 0 20px 30px;
@@ -25,7 +25,7 @@
     width: 40%;
     }
 
-    #first > h2 {background-color: crimson}
+    #first > h2 {background-color: coral}
     #second > h2 {background-color: greenyellow}
     #third > h2 {background-color: hotpink}
     
